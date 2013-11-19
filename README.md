@@ -1,5 +1,5 @@
-JavaPABXParser
-==============
+Java PABX Parser
+================
 
 Simple test program that parse 'Command' strings coming from a pseudo PABX (private phone exchange).
 
