@@ -10,3 +10,5 @@ Simple test program that parse 'Command' strings coming from a pseudo PABX (priv
 * ReadEventStreamTest contains the unit tests for the classes Tokenizer/Parser
 
 Next step is to implement the same in Scala using the integrated parser.
+
+Note: This is not meant to be efficient, I wanted to organise the code so that it follows a structure where 'char' are exchanged. A more efficient implementation would pass 'String' to the tokenizer and not each char individually.
